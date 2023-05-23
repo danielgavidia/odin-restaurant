@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {Navbar} from "./components/Navbar";
+import PopularItems from "./components/PopularItems";
+import Mambopass from "./components/Mambopass";
+import MamboForWork from "./components/MamboForWork";
+import MamboExclusives from "./components/MamboExclusives";
+import TheLatest from "./components/TheLatest";
+import InTheLab from "./components/InTheLab";
+import BottomLinks from "./components/BottomLinks";
+import Join from "./components/Join";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+     return (
+          <>
+               <div className="flex flex-col">
+                    <Navbar />
+                    <PopularItems />
+                    <Mambopass />
+                    <MamboForWork />
+                    <TheLatest />
+                    <MamboExclusives />
+                    <InTheLab />
+                    <Join />
+                    <BottomLinks />
+               </div>
+          </>
+     );
 }
 
 export default App;
