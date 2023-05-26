@@ -1,6 +1,6 @@
 import React from "react";
 import {Navbar} from "./components/Navbar";
-import PopularItems from "./components/PopularItems";
+import Popular from "./components/Popular";
 import Mambopass from "./components/Mambopass";
 import MamboForWork from "./components/MamboForWork";
 import MamboExclusives from "./components/MamboExclusives";
@@ -14,7 +14,7 @@ function App() {
           <>
                <div className="flex flex-col">
                     <Navbar />
-                    <PopularItems />
+                    <Popular />
                     <Mambopass />
                     <MamboForWork />
                     <TheLatest />
