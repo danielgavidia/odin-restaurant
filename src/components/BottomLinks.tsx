@@ -16,7 +16,7 @@ const BottomLinks = () => {
 
      const scrollText = () => {
           let arr = [];
-          const text = `New Menu Drop--Watermelon, Pineapple, Red Graped, Strawberries, Kiwi, Ground Nutmeg`;
+          const text = `New Menu Drop--Watermelon, Pineapple, Red Grapes, Strawberries, Kiwi, Ground Nutmeg`;
 
           for (let i = 0; i < 100; i++) {
                arr.push(text);

@@ -28,7 +28,7 @@ const news = [
 const TheLatest = () => {
      const newsCard = (array: any) => {
           return (
-               <div className="flex rounded-[20px] w-[32.5%] h-[200px] bg-white">
+               <div className="flex rounded-[20px] w-[32.5%] h-[200px] bg-white hover:bg-green-50 transition delay-150">
                     <button className="flex text-start h-full">
                          <div className="flex flex-col font-comfortaa w-[60%] p-4 h-full">
                               <div className="h-[20%]">{array.outlet}</div>
